@@ -1,0 +1,142 @@
+:root {
+    --primary--color: #536DFE;
+    --secondary--color: white;
+    --back-color:lightgray;
+}
+
+body {
+    margin: -20px 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+section {
+    margin: 0px;
+    text-align: center;
+}
+ h2{
+     color: white;
+     font-weight: bold;
+     padding-top: 1rem ;
+     padding-bottom: 1.5rem;
+     padding-left: 0.5rem;
+     text-align: left;
+ }
+
+.navigation {
+    background-color: var(--primary--color);
+    border-bottom-left-radius: 1rem;
+}
+
+.non-bullet {
+    list-style: none;
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+.list-item-inline {
+    display: inline; 
+    padding: 2rem 1rem;
+}
+
+.link {
+    color: var(--secondary--color);
+}
+
+.bolder {
+    font-weight: bold;
+} 
+
+/** HEADER **/
+.header {
+        margin-top: -50px ;
+        border-top: -2rem;
+}
+
+img {
+    width:  400px;
+    height: 400px;
+    display: block;
+    margin: auto;
+    
+}
+
+h3 {
+    text-align: center;
+    margin-top: -4rem;
+    font-size: xx-large;
+}
+
+.color-grey {
+    color: grey;
+}
+
+.color-primary {
+    color: var(--primary--color);
+}
+
+/** technologies **/
+.color-ow {
+    background-color: var(--back-color);
+    padding: 5px 0px 10px 0px;
+}
+
+ .para{
+    font-size: large;
+    
+ }
+  
+ /** Projects **/
+
+ .projects {
+     padding-bottom: 2rem;
+ }
+.project-btn {
+    color: var(--secondary--color);
+    background-color: var(--primary--color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+/** Blogs **/
+.blogs-btn {
+    color: var(--primary--color);
+    border: 1px solid var(--primary--color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+/**footer **/
+.footer {
+    background-color: var(--primary--color);
+    margin-top: -1rem;
+    padding-bottom: 1rem;
+    border-top-right-radius: 1rem;
+    color: var(--secondary--color);
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+    display: inline;
+    padding: 1rem 1rem;
+    font-weight: bold;
+} 
+
+.color-white{
+    color: var(--secondary--color);
+}
+#social {
+    padding-top: 1rem;
+    font-size: larger;
+    font-weight: bolder;
+ }
+ 
+ 
+
