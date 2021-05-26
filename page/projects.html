@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project | Saksham</title>
-    <link href="/styles.css" type="text/css" rel="stylesheet"> 
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
     <section class="navbar">
@@ -12,22 +12,73 @@
             <h2>Saksham Munjal </h2>
             <ul class="non-bullet">
                 <li class="list-item-inline">
-                    <a class="link " href="/"> Home </a>
+                    <a class="link" href="/"> Home </a>
                 </li>
                 <li class="list-item-inline">
-                    <a class="link bolder" href="/">Projects</a>
+                    <a class="link bolder" href="/page/projects.html">Projects</a>
                 </li>
                 <li class="list-item-inline">
-                    <a class="link" href="/">Blogs</a>
+                    <a class="link" href="/page/blogs.html">Blogs</a>
                 </li>
                 
             </ul>
         </nav>
     </section>
 
-    <section class="secondary-header">
-        <h3><span class="color-grey" >See My</span><span class="color-primary" > Projects</span></h3>
+    <section class="header">
+        <header class="intro">
+            <img class="img" src="../images/project.svg" alt="no-img" />
+            <h3><span class="color-grey" >See</span><span class="color-primary" > My Projects</span></h3>
+        </header>
     </section>
+    
+    <div class="projects-page">
+        <section style="margin-top: 6rem;"> 
+            <h3 class="bolder">JavaScript Quiz</h3>
+            <p class="para">
+                A very fun and basic JavaScript Quiz.  <br>
+                Technology Used: <a href="https://replit.com">Repl.It</a> 
+            </p>
+            <a href="https://github.com/munjalSaksham71/quiz-app" class="primary-btn">Source Code</a>
+            <a href="https://replit.com/@sakshammunjal9/quiz-app?embed=1&ouput=1#index.js" class="secondary-btn">Live Project</a>
+        </section>
 
+        <section style="margin-top: 9rem">
+            <h3>Yoda Speaks</h1>
+            <p class="para">
+                A fun API translation app to yoda language. <br>
+                Try it out
+            </p>
+            <a href="https://github.com/munjalSaksham71/yoda-speaks" class="primary-btn">Source Code</a>
+            <a href="https://yodaspeakss.netlify.app/" class="secondary-btn">Live Project</a>
+        </section>
+
+        <section style="margin-top: 9rem">
+            <h3>Google Keep (clone)</h1>
+            <p class="para">
+                This is a google Keep clone using reactJS. <br>
+                see the project 
+            </p>
+            <a href="https://github.com/munjalSaksham71/KeeperApp" class="primary-btn">Source Code</a>
+            <a href="https://5sqwy.csb.app/" class="secondary-btn">Live Project</a>
+        </section>
+    </div>
+
+    <section style="margin-top: 3rem;" class="footer">
+        <p id="social">Connect with me </p>
+        <ul class="non-bullet-center">
+            <li class="center inline">
+                <a class="color-white" href="https://www.instagram.com/_themunjal.saksham__" class="instagram">Instagram</a>
+            </li>
+            <li class="center inline">
+                <a class="color-white" href="/" class="github">Github</a>
+            </li>
+            <li class="center inline">
+                <a class="color-white" href="https://twitter.com/saksham6239" class="Twitter">Twitter</a>
+            </li>
+        </ul>
+        <p class="message"> Made with ❤️</p>
+    </section>
+    
 </body>
 </html>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 :root {
     --primary--color: #536DFE;
     --secondary--color: white;
@@ -20,7 +22,8 @@ section {
     margin: 0px;
     text-align: center;
 }
- h2{
+
+h2{
      color: white;
      font-weight: bold;
      padding-top: 1rem ;
@@ -92,20 +95,20 @@ h3 {
     
  }
   
- /** Projects **/
 
  .projects {
      padding-bottom: 2rem;
  }
-.project-btn {
+
+
+.primary-btn {
     color: var(--secondary--color);
     background-color: var(--primary--color);
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
 }
 
-/** Blogs **/
-.blogs-btn {
+.secondary-btn {
     color: var(--primary--color);
     border: 1px solid var(--primary--color);
     padding: 0.5rem 1rem;
@@ -140,8 +143,11 @@ h3 {
  
  
 
- /**Projects Main Pages **/
+ /**Projects Main Page **/
 .secondary-header {
+   margin-top: 100px; 
+}
 
-   margin-top: 100px;; 
+.projects-page {
+    font-family: 'Montserrat', sans-serif;
 }
