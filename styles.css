@@ -6,6 +6,10 @@
   --back-color: lightgray;
 }
 
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
 body {
   margin: -20px 0px;
   padding: 0px;
